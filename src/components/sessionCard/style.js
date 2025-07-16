@@ -1,17 +1,26 @@
 import styled from 'styled-components';
 
 export const SessionCardComponent = styled.div`
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 30px;
-  border-radius: 20px;
-  color: white;
-  max-width: 650px;
-  margin: 20px auto;
+  font-size: larger;
+  position: relative;
+  flex: 3fr;
+  max-width: 800px;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 0px 30px;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  width: 100%;
 `;
 
-export const SessionTitle = styled.h2`
+
+export const SessionTitle = styled.p`
   font-size: 30px;
-  color: #00aaff;
+  color: black;
   margin-bottom: 20px;
 `;
 
@@ -35,12 +44,7 @@ export const List = styled.ul`
   }
 
   li::marker {
-    color: #00aaff;
+    color: black;
   }
 
-  li:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 3px;
-    padding-left: 4px;
-  }
 `;

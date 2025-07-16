@@ -1,6 +1,7 @@
 import "./style.css";
+import { Container } from "./style";
 import SessionCard from "../components/sessionCard/sessionCard";
-
+import  Header  from "../components/header/Header.jsx"; // Não tenho IDEIA porque isso ainda está renderizando mesmo apontando erro.
 const vantagens = [
   {
     heading: "Pressão de lane",
@@ -13,17 +14,31 @@ const vantagens = [
   {
     heading: "Cura e buff",
     points: [
-      "A cura (E-Humana) aumenta conforme o aliado perde vida, e dá um buff de attack speed"
+      "A cura (E-Humana) aumenta conforme o aliado perde vida, e dá um buff de attack speed", "kek"
     ]
   }
 ];
 
-const main = () => {
+const sinergias = [
+
+  {
+    heading: "Teste",
+    points: []
+  }
+]
+
+const Main = () => {
   return (
-    <>
-      <SessionCard title="Vantagens da Nidalee Suporte" items={vantagens} />
+    <>  
+      <Header>
+      </Header>
+      <Container>
+      <SessionCard title="Vantagens da Nidalee Suporte" items={vantagens}/>
+      <SessionCard title="Vantagens da Nidalee Suporte" items={sinergias} />
+    </Container>
+
     </>
   );
 };
 
-export default main;
+export default Main;
