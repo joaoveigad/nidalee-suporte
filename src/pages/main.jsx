@@ -1,7 +1,9 @@
 import "./style.css";
 import { Container } from "./style";
 import SessionCard from "../components/sessionCard/sessionCard";
-import  Header  from "../components/header/Header.jsx"; // Não tenho IDEIA porque isso ainda está renderizando mesmo apontando erro.
+import  Header  from "../components/header/Header" // Não tenho IDEIA porque isso ainda está renderizando mesmo apontando erro.
+
+
 const vantagens = [
   {
     heading: "Pressão de lane",
@@ -33,8 +35,8 @@ const Main = () => {
       <Header>
       </Header>
       <Container>
-      <SessionCard title="Vantagens da Nidalee Suporte" items={vantagens}/>
-      <SessionCard title="Vantagens da Nidalee Suporte" items={sinergias} />
+      <SessionCard title="Nidalee Suporte" items={vantagens}/>
+
     </Container>
 
     </>

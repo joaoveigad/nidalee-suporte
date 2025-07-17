@@ -6,7 +6,7 @@ export const HeaderComponent = styled.div`
   background-color: black;
   color: burlywood;
   width: 100%;
-  height: 80px;
+  height: 50px;
   margin: 0;
   border: 0;
   padding: 0px;
@@ -20,6 +20,7 @@ export const HeaderComponent = styled.div`
 `
 export const HeaderText = styled.p`
   padding: 10px; 
+  margin-left: 30px;
   font-size: 1 rem;
   color: burlywood;
   font-weight: bold; 

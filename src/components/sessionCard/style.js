@@ -2,19 +2,18 @@ import styled from 'styled-components';
 
 export const SessionCardComponent = styled.div`
   font-size: larger;
-  position: relative;
-  flex: 3fr;
-  max-width: 800px;
-  height: 100vh;
+  height: 100%;
   max-height: 100vh;
-  padding: 0px 30px;
+  margin: 20px;
+  padding: 50px 30px;
+  margin: 10px;
   background-color: burlywood;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   color: black;
-  width: 100%;
+  width: 1000px;
 `;
 
 
