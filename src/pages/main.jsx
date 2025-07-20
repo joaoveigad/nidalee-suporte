@@ -1,8 +1,9 @@
 import "./style.css";
 import { Container } from "./style";
 import SessionCard from "../components/sessionCard/sessionCard";
-import  Header  from "../components/header/Header" // Não tenho IDEIA porque isso ainda está renderizando mesmo apontando erro.
-
+import BlackCard from "../components/BlackCard/BlackCard";
+import  Header  from "../components/header/Header" 
+import Footer from "../footer/Footer";
 
 const vantagens = [
   {
@@ -16,29 +17,23 @@ const vantagens = [
   {
     heading: "Cura e buff",
     points: [
-      "A cura (E-Humana) aumenta conforme o aliado perde vida, e dá um buff de attack speed", "kek"
+      "A cura (E-Humana) aumenta conforme o aliado perde vida, e dá um buff de attack speed",
     ]
   }
 ];
 
-const sinergias = [
 
-  {
-    heading: "Teste",
-    points: []
-  }
-]
 
 const Main = () => {
   return (
-    <>  
-      <Header>
-      </Header>
-      <Container>
-      <SessionCard title="Nidalee Suporte" items={vantagens}/>
-
-    </Container>
-
+    <>
+      <Header />
+        <Container>
+          <BlackCard title="Botão de like aqui?" />
+          <SessionCard title="Nidalee Suporte" items={vantagens} />
+          <BlackCard title ="Sinergia"/>  
+        </Container>
+        <Footer />
     </>
   );
 };

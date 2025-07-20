@@ -11,7 +11,7 @@ export const HeaderComponent = styled.div`
   border: 0;
   padding: 0px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   outline-color: white;
   position: center;

@@ -1,19 +1,22 @@
 import styled from 'styled-components';
 
 export const SessionCardComponent = styled.div`
+  position: relative;
   font-size: larger;
   height: 100%;
   max-height: 100vh;
   margin: 20px;
-  padding: 50px 30px;
-  margin: 10px;
+  padding: 60px 30px;
   background-color: burlywood;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   color: black;
-  width: 1000px;
+  width: auto;
+  margin-right: 200px;
+  margin-left: 10px;
+
 `;
 
 
@@ -27,7 +30,7 @@ export const List = styled.ul`
   margin: 0;
   padding-left: 1.5em;
   font-size: 16px;
-  color: #ddd;
+  color: black;;
   line-height: 1.5;
 
 
