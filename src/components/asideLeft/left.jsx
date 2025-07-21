@@ -7,7 +7,7 @@ const Left = () => {
   return (
     <BlackCardComponent>
       <SessionTitle>Left Sidebar</SessionTitle>
-      <img src={under}/>
+      <img src={under} alt= "Jesus malhano"/>
     </BlackCardComponent>
   );
 }

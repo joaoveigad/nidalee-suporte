@@ -5,12 +5,11 @@ export const SessionCardComponent = styled.div`
   flex-direction: column;
   align-items: center;
   position: center;
-  width: 100%;
+  width: 1500px;
   height: 100%;
   padding: 60px 30px;
   background-color: burlywood;
   margin: 20px 200px;
-
   box-shadow: 0 15px 50px black;
 `;
 

@@ -2,29 +2,17 @@ import styled from "styled-components";
 
 export const BlackCardComponent = styled.div`
   position: relative;
-  width: 100%;
-  max-width: 400px;
+  width: auto;
+  max-width: 450px;
   min-height: calc(100vh - 50px); 
-  padding: 60px 30px;
+  padding-top: 100px;
   background-color: black;
+  border: 1px solid burlywood;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: larger;
-  box-shadow: 0 15px 50px burlywood;
-`;
-
-
-
-export const GridContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 20px;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
 `;
 
 export const Title = styled.p`
@@ -33,9 +21,21 @@ export const Title = styled.p`
   margin-bottom: 20px;
 `;
 
-export const GridImage = styled.img`
+
+export const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
   width: 100%;
+  padding: 10px;
+  max-width: 1000px;
+  margin: 10px
+`;
+
+export const GridImage = styled.img`
+  width: 80%;
   height: auto;
+  border: 2px outset burlywood;
   border-radius: 10px;
   cursor: pointer;
 `;

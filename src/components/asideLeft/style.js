@@ -13,7 +13,7 @@ export const BlackCardComponent = styled.div`
   align-items: center;
   justify-content: flex-start;
   font-size: larger;
-  box-shadow: 0 15px 50px burlywood;
+  border: 1px solid burlywood;
 `;
 
 export const SessionTitle = styled.p`
