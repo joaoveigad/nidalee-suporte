@@ -3,6 +3,7 @@ import { Container } from "./style";
 import SessionCard from "../components/sessionCard/sessionCard";
 import BlackCard from "../components/BlackCard/BlackCard";
 import  Header  from "../components/header/Header" 
+import Left from "../components/asideLeft/left";
 import Footer from "../footer/Footer";
 
 const vantagens = [
@@ -55,11 +56,11 @@ const Main = () => {
     <>
       <Header />
         <Container>
-          <BlackCard title="Botão de like aqui?" />
+          <Left />
           <SessionCard title="Vantagens, sinergias e estilo de jogo!" items={vantagens} />
           <BlackCard title ="Sinergia"/>  
         </Container>
-        <Footer />
+
     </>
   );
 };

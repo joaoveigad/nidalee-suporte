@@ -13,6 +13,7 @@ export const FooterComponent = styled.div`
   justify-content: flex-start;
   padding: 0 30px;
   z-index: 10;
+  overf
 `;
 
 export const FooterText = styled.p`

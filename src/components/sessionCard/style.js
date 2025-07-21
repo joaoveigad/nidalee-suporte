@@ -46,8 +46,8 @@ export const List = styled.ul`
 }
 `
 export const Nida = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: 380px;
 `;
 export const Credits = styled.p`
   font-size: 16px;

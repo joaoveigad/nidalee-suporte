@@ -94,7 +94,7 @@ const BlackCard = () => {
           <GridImage src={yunara} alt="Yunara Icon" />
         </a>
       </GridContainer>
-
+      
       <SessionTitle>Mid</SessionTitle>
       <GridContainer>
         <a href="https://www.leagueofgraphs.com/champions/tier-list/yunara" target="_blank" rel="noopener noreferrer">
